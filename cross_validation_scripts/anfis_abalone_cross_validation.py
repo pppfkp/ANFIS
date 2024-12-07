@@ -73,10 +73,14 @@ for train_index, val_index in kf.split(X):
     print(f"Fold {fold} completed.")
     validation_losses.append(early_stopping.best_loss)  # Track validation loss
 
-# After cross-validation, print the average validation loss
+# After cross-validation, calculate statistics and log the results
 average_loss = np.mean(validation_losses)
-print(f"Average validation loss across 5 folds: {average_loss}")
+best_loss = np.min(validation_losses)
+worst_loss = np.max(validation_losses)
 
-# Optionally, save the model with the lowest validation loss (from the best fold)
-best_fold = np.argmin(validation_losses) + 1
-print(f"The best fold is fold {best_fold} with validation loss {validation_losses[best_fold-1]}")
+# Format the results
+run_losses = " ".join([f"run{fold}: {loss:.4f}" for fold, loss in enumerate(validation_losses, start=1)])
+log_message = f"[{run_losses}] avg loss: {average_loss:.4f} best loss: {best_loss:.4f} worst loss: {worst_loss:.4f}"
+
+# Print the log
+print(log_message)
