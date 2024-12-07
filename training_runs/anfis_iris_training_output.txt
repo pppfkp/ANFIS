@@ -1,0 +1,39 @@
+Test dataset saved to test_datasets/iris_test_dataset.csv
+Epoch 1/100, Training Loss: 1.1095
+Epoch 1/100, Training Loss: 1.1095, Validation Loss: 0.4733
+Epoch 1: EarlyStopping initialized with best_loss=0.4733
+Epoch 2/100, Training Loss: 0.8090
+Epoch 2/100, Training Loss: 0.8090, Validation Loss: 0.3015
+Epoch 2: Validation loss improved to 0.3015
+Epoch 3/100, Training Loss: 0.5784
+Epoch 3/100, Training Loss: 0.5784, Validation Loss: 0.2039
+Epoch 3: Validation loss improved to 0.2039
+Epoch 4/100, Training Loss: 0.4281
+Epoch 4/100, Training Loss: 0.4281, Validation Loss: 0.1422
+Epoch 4: Validation loss improved to 0.1422
+Epoch 5/100, Training Loss: 0.3049
+Epoch 5/100, Training Loss: 0.3049, Validation Loss: 0.0990
+Epoch 5: Validation loss improved to 0.0990
+Epoch 6/100, Training Loss: 0.2177
+Epoch 6/100, Training Loss: 0.2177, Validation Loss: 0.0680
+Epoch 6: Validation loss improved to 0.0680
+Epoch 7/100, Training Loss: 0.1607
+Epoch 7/100, Training Loss: 0.1607, Validation Loss: 0.0520
+Epoch 7: Validation loss improved to 0.0520
+Epoch 8/100, Training Loss: 0.1263
+Epoch 8/100, Training Loss: 0.1263, Validation Loss: 0.0483
+Epoch 8: No improvement. EarlyStopping counter: 1/5
+Epoch 9/100, Training Loss: 0.1055
+Epoch 9/100, Training Loss: 0.1055, Validation Loss: 0.0486
+Epoch 9: No improvement. EarlyStopping counter: 2/5
+Epoch 10/100, Training Loss: 0.0933
+Epoch 10/100, Training Loss: 0.0933, Validation Loss: 0.0483
+Epoch 10: No improvement. EarlyStopping counter: 3/5
+Epoch 11/100, Training Loss: 0.0840
+Epoch 11/100, Training Loss: 0.0840, Validation Loss: 0.0506
+Epoch 11: No improvement. EarlyStopping counter: 4/5
+Epoch 12/100, Training Loss: 0.0763
+Epoch 12/100, Training Loss: 0.0763, Validation Loss: 0.0497
+Epoch 12: No improvement. EarlyStopping counter: 5/5
+Saving the best model with loss=0.0520
+Early stopping triggered at epoch 12

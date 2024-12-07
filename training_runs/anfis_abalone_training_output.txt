@@ -1,0 +1,52 @@
+Loading dataset from abalone.data...
+Test dataset saved to test_datasets/abalone_test_dataset.csv
+Epoch 1/100, Training Loss: 18.1973
+Epoch 1/100, Training Loss: 18.1973, Validation Loss: 6.8160
+Epoch 1: EarlyStopping initialized with best_loss=6.8160
+Epoch 2/100, Training Loss: 5.4462
+Epoch 2/100, Training Loss: 5.4462, Validation Loss: 5.0619
+Epoch 2: Validation loss improved to 5.0619
+Epoch 3/100, Training Loss: 5.1611
+Epoch 3/100, Training Loss: 5.1611, Validation Loss: 5.0165
+Epoch 3: Validation loss improved to 5.0165
+Epoch 4/100, Training Loss: 4.7629
+Epoch 4/100, Training Loss: 4.7629, Validation Loss: 4.7697
+Epoch 4: Validation loss improved to 4.7697
+Epoch 5/100, Training Loss: 4.6996
+Epoch 5/100, Training Loss: 4.6996, Validation Loss: 5.2030
+Epoch 5: No improvement. EarlyStopping counter: 1/5
+Epoch 6/100, Training Loss: 4.7289
+Epoch 6/100, Training Loss: 4.7289, Validation Loss: 4.7500
+Epoch 6: Validation loss improved to 4.7500
+Epoch 7/100, Training Loss: 4.5452
+Epoch 7/100, Training Loss: 4.5452, Validation Loss: 4.9273
+Epoch 7: No improvement. EarlyStopping counter: 1/5
+Epoch 8/100, Training Loss: 4.5760
+Epoch 8/100, Training Loss: 4.5760, Validation Loss: 4.9855
+Epoch 8: No improvement. EarlyStopping counter: 2/5
+Epoch 9/100, Training Loss: 4.5917
+Epoch 9/100, Training Loss: 4.5917, Validation Loss: 4.5737
+Epoch 9: Validation loss improved to 4.5737
+Epoch 10/100, Training Loss: 4.5068
+Epoch 10/100, Training Loss: 4.5068, Validation Loss: 4.8853
+Epoch 10: No improvement. EarlyStopping counter: 1/5
+Epoch 11/100, Training Loss: 4.5180
+Epoch 11/100, Training Loss: 4.5180, Validation Loss: 4.5153
+Epoch 11: Validation loss improved to 4.5153
+Epoch 12/100, Training Loss: 4.5684
+Epoch 12/100, Training Loss: 4.5684, Validation Loss: 4.6881
+Epoch 12: No improvement. EarlyStopping counter: 1/5
+Epoch 13/100, Training Loss: 4.5935
+Epoch 13/100, Training Loss: 4.5935, Validation Loss: 4.5882
+Epoch 13: No improvement. EarlyStopping counter: 2/5
+Epoch 14/100, Training Loss: 4.5888
+Epoch 14/100, Training Loss: 4.5888, Validation Loss: 4.7676
+Epoch 14: No improvement. EarlyStopping counter: 3/5
+Epoch 15/100, Training Loss: 4.4336
+Epoch 15/100, Training Loss: 4.4336, Validation Loss: 4.6294
+Epoch 15: No improvement. EarlyStopping counter: 4/5
+Epoch 16/100, Training Loss: 4.4172
+Epoch 16/100, Training Loss: 4.4172, Validation Loss: 4.8015
+Epoch 16: No improvement. EarlyStopping counter: 5/5
+Saving the best model with loss=4.5153
+Early stopping triggered at epoch 16

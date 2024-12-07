@@ -1,0 +1,25 @@
+Loading dataset from powerPlant.csv...
+Test dataset saved to test_datasets/power_plant_test_dataset.csv
+Epoch 1/100, Training Loss: 7187.9267
+Epoch 1/100, Training Loss: 7187.9267, Validation Loss: 31.2512
+Epoch 1: EarlyStopping initialized with best_loss=31.2512
+Epoch 2/100, Training Loss: 31.4562
+Epoch 2/100, Training Loss: 31.4562, Validation Loss: 18.9584
+Epoch 2: Validation loss improved to 18.9584
+Epoch 3/100, Training Loss: 31.0379
+Epoch 3/100, Training Loss: 31.0379, Validation Loss: 20.9881
+Epoch 3: No improvement. EarlyStopping counter: 1/5
+Epoch 4/100, Training Loss: 37.8270
+Epoch 4/100, Training Loss: 37.8270, Validation Loss: 78.6556
+Epoch 4: No improvement. EarlyStopping counter: 2/5
+Epoch 5/100, Training Loss: 44.7341
+Epoch 5/100, Training Loss: 44.7341, Validation Loss: 50.3451
+Epoch 5: No improvement. EarlyStopping counter: 3/5
+Epoch 6/100, Training Loss: 53.3591
+Epoch 6/100, Training Loss: 53.3591, Validation Loss: 71.9797
+Epoch 6: No improvement. EarlyStopping counter: 4/5
+Epoch 7/100, Training Loss: 47.8905
+Epoch 7/100, Training Loss: 47.8905, Validation Loss: 25.0463
+Epoch 7: No improvement. EarlyStopping counter: 5/5
+Saving the best model with loss=18.9584
+Early stopping triggered at epoch 7

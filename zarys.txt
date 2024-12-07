@@ -1,0 +1,10 @@
+Opis architektury ANFIS
+Opis sieci neuronowej głównie MLP
+
+Przedstawienie zbiorów danych
+Porównanie modeli:
+- cv
+- roc
+- macierz konfuzji
+
+Konkluzja
