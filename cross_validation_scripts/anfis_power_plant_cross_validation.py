@@ -48,7 +48,7 @@ for train_index, val_index in kf.split(X):
 
     # Train the model
     trained_model = training_loop(
-        X_train_tensor, y_train_tensor, X_val_tensor, y_val_tensor, model, criterion, optimizer, epochs=100, batch_size=32, verbose=True, early_stopping=early_stopping
+        X_train_tensor, y_train_tensor, X_val_tensor, y_val_tensor, model, criterion, optimizer, epochs=200, batch_size=16, verbose=True, early_stopping=early_stopping
     )
 
     # After training, the best model for this fold is saved, and the weights are restored

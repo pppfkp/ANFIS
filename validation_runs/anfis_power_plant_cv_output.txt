@@ -1,599 +1,431 @@
 Loading dataset from powerPlant.csv...
 Training fold 1...
-Epoch 1/100, Training Loss: 169559.8288
-Epoch 1/100, Training Loss: 169559.8288, Validation Loss: 133987.3281
-Epoch 1: EarlyStopping initialized with best_loss=133987.3281
-Epoch 2/100, Training Loss: 108838.2615
-Epoch 2/100, Training Loss: 108838.2615, Validation Loss: 109090.2266
-Epoch 2: Validation loss improved to 109090.2266
-Epoch 3/100, Training Loss: 71206.4973
-Epoch 3/100, Training Loss: 71206.4973, Validation Loss: 54886.7930
-Epoch 3: Validation loss improved to 54886.7930
-Epoch 4/100, Training Loss: 47949.3999
-Epoch 4/100, Training Loss: 47949.3999, Validation Loss: 46790.7812
-Epoch 4: Validation loss improved to 46790.7812
-Epoch 5/100, Training Loss: nan
-Epoch 5/100, Training Loss: nan, Validation Loss: nan
-Epoch 5: No improvement. EarlyStopping counter: 1/5
-Epoch 6/100, Training Loss: nan
-Epoch 6/100, Training Loss: nan, Validation Loss: nan
-Epoch 6: No improvement. EarlyStopping counter: 2/5
-Epoch 7/100, Training Loss: nan
-Epoch 7/100, Training Loss: nan, Validation Loss: nan
-Epoch 7: No improvement. EarlyStopping counter: 3/5
-Epoch 8/100, Training Loss: nan
-Epoch 8/100, Training Loss: nan, Validation Loss: nan
-Epoch 8: No improvement. EarlyStopping counter: 4/5
-Epoch 9/100, Training Loss: nan
-Epoch 9/100, Training Loss: nan, Validation Loss: nan
-Epoch 9: No improvement. EarlyStopping counter: 5/5
-Early stopping triggered at epoch 9
+Epoch 1/200, Training Loss: 148975.0537
+Epoch 1/200, Training Loss: 148975.0537, Validation Loss: 95443.7031
+Epoch 1: EarlyStopping initialized with best_loss=95443.7031
+Epoch 2/200, Training Loss: 68803.2330
+Epoch 2/200, Training Loss: 68803.2330, Validation Loss: 44615.5625
+Epoch 2: Validation loss improved to 44615.5625
+Epoch 3/200, Training Loss: 33078.9561
+Epoch 3/200, Training Loss: 33078.9561, Validation Loss: 35775.7578
+Epoch 3: Validation loss improved to 35775.7578
+Epoch 4/200, Training Loss: 22641.8393
+Epoch 4/200, Training Loss: 22641.8393, Validation Loss: 22293.8613
+Epoch 4: Validation loss improved to 22293.8613
+Epoch 5/200, Training Loss: 19440.5645
+Epoch 5/200, Training Loss: 19440.5645, Validation Loss: 16160.5547
+Epoch 5: Validation loss improved to 16160.5547
+Epoch 6/200, Training Loss: 14169.4808
+Epoch 6/200, Training Loss: 14169.4808, Validation Loss: 12877.0508
+Epoch 6: Validation loss improved to 12877.0508
+Epoch 7/200, Training Loss: 11558.6745
+Epoch 7/200, Training Loss: 11558.6745, Validation Loss: 10778.2471
+Epoch 7: Validation loss improved to 10778.2471
+Epoch 8/200, Training Loss: 9466.4923
+Epoch 8/200, Training Loss: 9466.4923, Validation Loss: 9346.3008
+Epoch 8: Validation loss improved to 9346.3008
+Epoch 9/200, Training Loss: 7908.8795
+Epoch 9/200, Training Loss: 7908.8795, Validation Loss: 7436.0068
+Epoch 9: Validation loss improved to 7436.0068
+Epoch 10/200, Training Loss: 5997.3110
+Epoch 10/200, Training Loss: 5997.3110, Validation Loss: 5388.4160
+Epoch 10: Validation loss improved to 5388.4160
+Epoch 11/200, Training Loss: 6112.9766
+Epoch 11/200, Training Loss: 6112.9766, Validation Loss: 4831.2622
+Epoch 11: Validation loss improved to 4831.2622
+Epoch 12/200, Training Loss: 3579.8082
+Epoch 12/200, Training Loss: 3579.8082, Validation Loss: 2993.6494
+Epoch 12: Validation loss improved to 2993.6494
+Epoch 13/200, Training Loss: 2398.4479
+Epoch 13/200, Training Loss: 2398.4479, Validation Loss: 1959.4871
+Epoch 13: Validation loss improved to 1959.4871
+Epoch 14/200, Training Loss: 1458.4535
+Epoch 14/200, Training Loss: 1458.4535, Validation Loss: 1084.5262
+Epoch 14: Validation loss improved to 1084.5262
+Epoch 15/200, Training Loss: 595.0568
+Epoch 15/200, Training Loss: 595.0568, Validation Loss: 129.0618
+Epoch 15: Validation loss improved to 129.0618
+Epoch 16/200, Training Loss: 54.5681
+Epoch 16/200, Training Loss: 54.5681, Validation Loss: 60.0726
+Epoch 16: Validation loss improved to 60.0726
+Epoch 17/200, Training Loss: 43.7878
+Epoch 17/200, Training Loss: 43.7878, Validation Loss: 54.2315
+Epoch 17: Validation loss improved to 54.2315
+Epoch 18/200, Training Loss: 27.7764
+Epoch 18/200, Training Loss: 27.7764, Validation Loss: 19.7981
+Epoch 18: Validation loss improved to 19.7981
+Epoch 19/200, Training Loss: 21.1679
+Epoch 19/200, Training Loss: 21.1679, Validation Loss: 19.7387
+Epoch 19: Validation loss improved to 19.7387
+Epoch 20/200, Training Loss: 21.2429
+Epoch 20/200, Training Loss: 21.2429, Validation Loss: 19.6619
+Epoch 20: Validation loss improved to 19.6619
+Epoch 21/200, Training Loss: 21.2084
+Epoch 21/200, Training Loss: 21.2084, Validation Loss: 19.6889
+Epoch 21: No improvement. EarlyStopping counter: 1/5
+Epoch 22/200, Training Loss: 21.3066
+Epoch 22/200, Training Loss: 21.3066, Validation Loss: 19.8140
+Epoch 22: No improvement. EarlyStopping counter: 2/5
+Epoch 23/200, Training Loss: 21.3037
+Epoch 23/200, Training Loss: 21.3037, Validation Loss: 20.1393
+Epoch 23: No improvement. EarlyStopping counter: 3/5
+Epoch 24/200, Training Loss: 21.3246
+Epoch 24/200, Training Loss: 21.3246, Validation Loss: 19.8948
+Epoch 24: No improvement. EarlyStopping counter: 4/5
+Epoch 25/200, Training Loss: 21.2857
+Epoch 25/200, Training Loss: 21.2857, Validation Loss: 19.7473
+Epoch 25: No improvement. EarlyStopping counter: 5/5
+Early stopping triggered at epoch 25
 Fold 1 completed.
 Training fold 2...
-Epoch 1/100, Training Loss: 173027.3749
-Epoch 1/100, Training Loss: 173027.3749, Validation Loss: 141602.9062
-Epoch 1: EarlyStopping initialized with best_loss=141602.9062
-Epoch 2/100, Training Loss: 120018.4385
-Epoch 2/100, Training Loss: 120018.4385, Validation Loss: 99585.4609
-Epoch 2: Validation loss improved to 99585.4609
-Epoch 3/100, Training Loss: 76776.7657
-Epoch 3/100, Training Loss: 76776.7657, Validation Loss: 55963.4453
-Epoch 3: Validation loss improved to 55963.4453
-Epoch 4/100, Training Loss: 48433.5948
-Epoch 4/100, Training Loss: 48433.5948, Validation Loss: 35501.3594
-Epoch 4: Validation loss improved to 35501.3594
-Epoch 5/100, Training Loss: 30916.6406
-Epoch 5/100, Training Loss: 30916.6406, Validation Loss: 26462.8555
-Epoch 5: Validation loss improved to 26462.8555
-Epoch 6/100, Training Loss: 22406.1331
-Epoch 6/100, Training Loss: 22406.1331, Validation Loss: 19549.2539
-Epoch 6: Validation loss improved to 19549.2539
-Epoch 7/100, Training Loss: 18190.3538
-Epoch 7/100, Training Loss: 18190.3538, Validation Loss: 14985.7031
-Epoch 7: Validation loss improved to 14985.7031
-Epoch 8/100, Training Loss: 15406.6682
-Epoch 8/100, Training Loss: 15406.6682, Validation Loss: 13552.4346
-Epoch 8: Validation loss improved to 13552.4346
-Epoch 9/100, Training Loss: 13554.6318
-Epoch 9/100, Training Loss: 13554.6318, Validation Loss: 12289.8496
-Epoch 9: Validation loss improved to 12289.8496
-Epoch 10/100, Training Loss: 12328.4523
-Epoch 10/100, Training Loss: 12328.4523, Validation Loss: 11273.0479
-Epoch 10: Validation loss improved to 11273.0479
-Epoch 11/100, Training Loss: 13023.8455
-Epoch 11/100, Training Loss: 13023.8455, Validation Loss: 10145.4531
-Epoch 11: Validation loss improved to 10145.4531
-Epoch 12/100, Training Loss: 10054.6338
-Epoch 12/100, Training Loss: 10054.6338, Validation Loss: 9350.0469
-Epoch 12: Validation loss improved to 9350.0469
-Epoch 13/100, Training Loss: 9182.2207
-Epoch 13/100, Training Loss: 9182.2207, Validation Loss: 8939.8633
-Epoch 13: Validation loss improved to 8939.8633
-Epoch 14/100, Training Loss: 8277.5309
-Epoch 14/100, Training Loss: 8277.5309, Validation Loss: 8541.2119
-Epoch 14: Validation loss improved to 8541.2119
-Epoch 15/100, Training Loss: 7600.1754
-Epoch 15/100, Training Loss: 7600.1754, Validation Loss: 7139.2085
-Epoch 15: Validation loss improved to 7139.2085
-Epoch 16/100, Training Loss: 6814.2081
-Epoch 16/100, Training Loss: 6814.2081, Validation Loss: 6444.6064
-Epoch 16: Validation loss improved to 6444.6064
-Epoch 17/100, Training Loss: 6235.3093
-Epoch 17/100, Training Loss: 6235.3093, Validation Loss: 6888.4551
-Epoch 17: No improvement. EarlyStopping counter: 1/5
-Epoch 18/100, Training Loss: 5659.2407
-Epoch 18/100, Training Loss: 5659.2407, Validation Loss: 4941.4995
-Epoch 18: Validation loss improved to 4941.4995
-Epoch 19/100, Training Loss: 5201.4029
-Epoch 19/100, Training Loss: 5201.4029, Validation Loss: 4455.9951
-Epoch 19: Validation loss improved to 4455.9951
-Epoch 20/100, Training Loss: 4496.7960
-Epoch 20/100, Training Loss: 4496.7960, Validation Loss: 3836.1406
-Epoch 20: Validation loss improved to 3836.1406
-Epoch 21/100, Training Loss: 3949.7270
-Epoch 21/100, Training Loss: 3949.7270, Validation Loss: 3445.0374
-Epoch 21: Validation loss improved to 3445.0374
-Epoch 22/100, Training Loss: 3361.1507
-Epoch 22/100, Training Loss: 3361.1507, Validation Loss: 2798.7246
-Epoch 22: Validation loss improved to 2798.7246
-Epoch 23/100, Training Loss: 2864.9423
-Epoch 23/100, Training Loss: 2864.9423, Validation Loss: 2536.2566
-Epoch 23: Validation loss improved to 2536.2566
-Epoch 24/100, Training Loss: 2352.6940
-Epoch 24/100, Training Loss: 2352.6940, Validation Loss: 2073.4341
-Epoch 24: Validation loss improved to 2073.4341
-Epoch 25/100, Training Loss: 1943.3817
-Epoch 25/100, Training Loss: 1943.3817, Validation Loss: 1653.9507
-Epoch 25: Validation loss improved to 1653.9507
-Epoch 26/100, Training Loss: 1615.5941
-Epoch 26/100, Training Loss: 1615.5941, Validation Loss: 1397.7598
-Epoch 26: Validation loss improved to 1397.7598
-Epoch 27/100, Training Loss: 1295.7734
-Epoch 27/100, Training Loss: 1295.7734, Validation Loss: 1108.1089
-Epoch 27: Validation loss improved to 1108.1089
-Epoch 28/100, Training Loss: 982.6680
-Epoch 28/100, Training Loss: 982.6680, Validation Loss: 866.6635
-Epoch 28: Validation loss improved to 866.6635
-Epoch 29/100, Training Loss: 712.3900
-Epoch 29/100, Training Loss: 712.3900, Validation Loss: 677.1803
-Epoch 29: Validation loss improved to 677.1803
-Epoch 30/100, Training Loss: 495.7384
-Epoch 30/100, Training Loss: 495.7384, Validation Loss: 395.6268
-Epoch 30: Validation loss improved to 395.6268
-Epoch 31/100, Training Loss: 260.5598
-Epoch 31/100, Training Loss: 260.5598, Validation Loss: 155.3362
-Epoch 31: Validation loss improved to 155.3362
-Epoch 32/100, Training Loss: 93.3491
-Epoch 32/100, Training Loss: 93.3491, Validation Loss: 67.8296
-Epoch 32: Validation loss improved to 67.8296
-Epoch 33/100, Training Loss: 46.9574
-Epoch 33/100, Training Loss: 46.9574, Validation Loss: 38.7285
-Epoch 33: Validation loss improved to 38.7285
-Epoch 34/100, Training Loss: 33.3300
-Epoch 34/100, Training Loss: 33.3300, Validation Loss: 31.7500
-Epoch 34: Validation loss improved to 31.7500
-Epoch 35/100, Training Loss: 28.9199
-Epoch 35/100, Training Loss: 28.9199, Validation Loss: 40.9938
-Epoch 35: No improvement. EarlyStopping counter: 1/5
-Epoch 36/100, Training Loss: 27.3342
-Epoch 36/100, Training Loss: 27.3342, Validation Loss: 34.3717
-Epoch 36: No improvement. EarlyStopping counter: 2/5
-Epoch 37/100, Training Loss: 26.0201
-Epoch 37/100, Training Loss: 26.0201, Validation Loss: 24.6933
-Epoch 37: Validation loss improved to 24.6933
-Epoch 38/100, Training Loss: 24.5811
-Epoch 38/100, Training Loss: 24.5811, Validation Loss: 25.3883
-Epoch 38: No improvement. EarlyStopping counter: 1/5
-Epoch 39/100, Training Loss: 24.5258
-Epoch 39/100, Training Loss: 24.5258, Validation Loss: 23.5524
-Epoch 39: Validation loss improved to 23.5524
-Epoch 40/100, Training Loss: 23.9760
-Epoch 40/100, Training Loss: 23.9760, Validation Loss: 23.3277
-Epoch 40: Validation loss improved to 23.3277
-Epoch 41/100, Training Loss: 24.8002
-Epoch 41/100, Training Loss: 24.8002, Validation Loss: 23.4627
-Epoch 41: No improvement. EarlyStopping counter: 1/5
-Epoch 42/100, Training Loss: 23.6293
-Epoch 42/100, Training Loss: 23.6293, Validation Loss: 27.1979
-Epoch 42: No improvement. EarlyStopping counter: 2/5
-Epoch 43/100, Training Loss: 23.5378
-Epoch 43/100, Training Loss: 23.5378, Validation Loss: 22.9940
-Epoch 43: Validation loss improved to 22.9940
-Epoch 44/100, Training Loss: 22.5556
-Epoch 44/100, Training Loss: 22.5556, Validation Loss: 22.2057
-Epoch 44: Validation loss improved to 22.2057
-Epoch 45/100, Training Loss: 22.3745
-Epoch 45/100, Training Loss: 22.3745, Validation Loss: 23.1489
-Epoch 45: No improvement. EarlyStopping counter: 1/5
-Epoch 46/100, Training Loss: 21.9850
-Epoch 46/100, Training Loss: 21.9850, Validation Loss: 22.0805
-Epoch 46: Validation loss improved to 22.0805
-Epoch 47/100, Training Loss: 21.6037
-Epoch 47/100, Training Loss: 21.6037, Validation Loss: 21.4805
-Epoch 47: Validation loss improved to 21.4805
-Epoch 48/100, Training Loss: 21.7509
-Epoch 48/100, Training Loss: 21.7509, Validation Loss: 21.6529
-Epoch 48: No improvement. EarlyStopping counter: 1/5
-Epoch 49/100, Training Loss: 21.5510
-Epoch 49/100, Training Loss: 21.5510, Validation Loss: 21.6193
-Epoch 49: No improvement. EarlyStopping counter: 2/5
-Epoch 50/100, Training Loss: 21.1897
-Epoch 50/100, Training Loss: 21.1897, Validation Loss: 21.1687
-Epoch 50: Validation loss improved to 21.1687
-Epoch 51/100, Training Loss: 21.0502
-Epoch 51/100, Training Loss: 21.0502, Validation Loss: 20.9595
-Epoch 51: Validation loss improved to 20.9595
-Epoch 52/100, Training Loss: 20.8990
-Epoch 52/100, Training Loss: 20.8990, Validation Loss: 21.4073
-Epoch 52: No improvement. EarlyStopping counter: 1/5
-Epoch 53/100, Training Loss: 20.7883
-Epoch 53/100, Training Loss: 20.7883, Validation Loss: 21.1356
-Epoch 53: No improvement. EarlyStopping counter: 2/5
-Epoch 54/100, Training Loss: 20.9107
-Epoch 54/100, Training Loss: 20.9107, Validation Loss: 20.8998
-Epoch 54: Validation loss improved to 20.8998
-Epoch 55/100, Training Loss: 20.8255
-Epoch 55/100, Training Loss: 20.8255, Validation Loss: 21.0842
-Epoch 55: No improvement. EarlyStopping counter: 1/5
-Epoch 56/100, Training Loss: 20.8274
-Epoch 56/100, Training Loss: 20.8274, Validation Loss: 21.1797
-Epoch 56: No improvement. EarlyStopping counter: 2/5
-Epoch 57/100, Training Loss: 20.7461
-Epoch 57/100, Training Loss: 20.7461, Validation Loss: 21.1704
-Epoch 57: No improvement. EarlyStopping counter: 3/5
-Epoch 58/100, Training Loss: 20.7724
-Epoch 58/100, Training Loss: 20.7724, Validation Loss: 21.0877
-Epoch 58: No improvement. EarlyStopping counter: 4/5
-Epoch 59/100, Training Loss: 20.7625
-Epoch 59/100, Training Loss: 20.7625, Validation Loss: 20.9613
-Epoch 59: No improvement. EarlyStopping counter: 5/5
-Early stopping triggered at epoch 59
+Epoch 1/200, Training Loss: 137122.9838
+Epoch 1/200, Training Loss: 137122.9838, Validation Loss: 87087.4141
+Epoch 1: EarlyStopping initialized with best_loss=87087.4141
+Epoch 2/200, Training Loss: 55337.5966
+Epoch 2/200, Training Loss: 55337.5966, Validation Loss: 38502.8125
+Epoch 2: Validation loss improved to 38502.8125
+Epoch 3/200, Training Loss: 32583.5994
+Epoch 3/200, Training Loss: 32583.5994, Validation Loss: 28886.5977
+Epoch 3: Validation loss improved to 28886.5977
+Epoch 4/200, Training Loss: 25028.2913
+Epoch 4/200, Training Loss: 25028.2913, Validation Loss: 21731.9961
+Epoch 4: Validation loss improved to 21731.9961
+Epoch 5/200, Training Loss: 20979.6079
+Epoch 5/200, Training Loss: 20979.6079, Validation Loss: 17209.1621
+Epoch 5: Validation loss improved to 17209.1621
+Epoch 6/200, Training Loss: 16437.3134
+Epoch 6/200, Training Loss: 16437.3134, Validation Loss: 14403.8770
+Epoch 6: Validation loss improved to 14403.8770
+Epoch 7/200, Training Loss: 13053.7249
+Epoch 7/200, Training Loss: 13053.7249, Validation Loss: 12920.1426
+Epoch 7: Validation loss improved to 12920.1426
+Epoch 8/200, Training Loss: 10200.4449
+Epoch 8/200, Training Loss: 10200.4449, Validation Loss: 7953.2847
+Epoch 8: Validation loss improved to 7953.2847
+Epoch 9/200, Training Loss: 7447.9009
+Epoch 9/200, Training Loss: 7447.9009, Validation Loss: 6061.6997
+Epoch 9: Validation loss improved to 6061.6997
+Epoch 10/200, Training Loss: 5658.3781
+Epoch 10/200, Training Loss: 5658.3781, Validation Loss: 4549.6792
+Epoch 10: Validation loss improved to 4549.6792
+Epoch 11/200, Training Loss: 3696.6746
+Epoch 11/200, Training Loss: 3696.6746, Validation Loss: 3142.4893
+Epoch 11: Validation loss improved to 3142.4893
+Epoch 12/200, Training Loss: 2383.9408
+Epoch 12/200, Training Loss: 2383.9408, Validation Loss: 1725.3696
+Epoch 12: Validation loss improved to 1725.3696
+Epoch 13/200, Training Loss: 1445.5734
+Epoch 13/200, Training Loss: 1445.5734, Validation Loss: 1065.1501
+Epoch 13: Validation loss improved to 1065.1501
+Epoch 14/200, Training Loss: 793.1213
+Epoch 14/200, Training Loss: 793.1213, Validation Loss: 504.8124
+Epoch 14: Validation loss improved to 504.8124
+Epoch 15/200, Training Loss: 359.9124
+Epoch 15/200, Training Loss: 359.9124, Validation Loss: 202.2542
+Epoch 15: Validation loss improved to 202.2542
+Epoch 16/200, Training Loss: 154.7480
+Epoch 16/200, Training Loss: 154.7480, Validation Loss: 89.8926
+Epoch 16: Validation loss improved to 89.8926
+Epoch 17/200, Training Loss: 53.4923
+Epoch 17/200, Training Loss: 53.4923, Validation Loss: 32.2107
+Epoch 17: Validation loss improved to 32.2107
+Epoch 18/200, Training Loss: 25.6103
+Epoch 18/200, Training Loss: 25.6103, Validation Loss: 22.0890
+Epoch 18: Validation loss improved to 22.0890
+Epoch 19/200, Training Loss: 21.2801
+Epoch 19/200, Training Loss: 21.2801, Validation Loss: 21.2363
+Epoch 19: Validation loss improved to 21.2363
+Epoch 20/200, Training Loss: 20.8449
+Epoch 20/200, Training Loss: 20.8449, Validation Loss: 21.2624
+Epoch 20: No improvement. EarlyStopping counter: 1/5
+Epoch 21/200, Training Loss: 20.8580
+Epoch 21/200, Training Loss: 20.8580, Validation Loss: 21.3775
+Epoch 21: No improvement. EarlyStopping counter: 2/5
+Epoch 22/200, Training Loss: 20.8806
+Epoch 22/200, Training Loss: 20.8806, Validation Loss: 21.1427
+Epoch 22: Validation loss improved to 21.1427
+Epoch 23/200, Training Loss: 20.8519
+Epoch 23/200, Training Loss: 20.8519, Validation Loss: 21.2393
+Epoch 23: No improvement. EarlyStopping counter: 1/5
+Epoch 24/200, Training Loss: 20.8750
+Epoch 24/200, Training Loss: 20.8750, Validation Loss: 21.3287
+Epoch 24: No improvement. EarlyStopping counter: 2/5
+Epoch 25/200, Training Loss: 20.9784
+Epoch 25/200, Training Loss: 20.9784, Validation Loss: 21.5191
+Epoch 25: No improvement. EarlyStopping counter: 3/5
+Epoch 26/200, Training Loss: 20.9693
+Epoch 26/200, Training Loss: 20.9693, Validation Loss: 21.0774
+Epoch 26: Validation loss improved to 21.0774
+Epoch 27/200, Training Loss: 20.9488
+Epoch 27/200, Training Loss: 20.9488, Validation Loss: 21.3932
+Epoch 27: No improvement. EarlyStopping counter: 1/5
+Epoch 28/200, Training Loss: 21.0166
+Epoch 28/200, Training Loss: 21.0166, Validation Loss: 21.2522
+Epoch 28: No improvement. EarlyStopping counter: 2/5
+Epoch 29/200, Training Loss: 21.0248
+Epoch 29/200, Training Loss: 21.0248, Validation Loss: 21.4702
+Epoch 29: No improvement. EarlyStopping counter: 3/5
+Epoch 30/200, Training Loss: 21.0451
+Epoch 30/200, Training Loss: 21.0451, Validation Loss: 21.1742
+Epoch 30: No improvement. EarlyStopping counter: 4/5
+Epoch 31/200, Training Loss: 20.9856
+Epoch 31/200, Training Loss: 20.9856, Validation Loss: 21.2917
+Epoch 31: No improvement. EarlyStopping counter: 5/5
+Early stopping triggered at epoch 31
 Fold 2 completed.
 Training fold 3...
-Epoch 1/100, Training Loss: 171989.0177
-Epoch 1/100, Training Loss: 171989.0177, Validation Loss: 140077.4531
-Epoch 1: EarlyStopping initialized with best_loss=140077.4531
-Epoch 2/100, Training Loss: 108825.5424
-Epoch 2/100, Training Loss: 108825.5424, Validation Loss: 86722.1797
-Epoch 2: Validation loss improved to 86722.1797
-Epoch 3/100, Training Loss: 62489.6293
-Epoch 3/100, Training Loss: 62489.6293, Validation Loss: 43482.3203
-Epoch 3: Validation loss improved to 43482.3203
-Epoch 4/100, Training Loss: 34751.8974
-Epoch 4/100, Training Loss: 34751.8974, Validation Loss: 28121.3672
-Epoch 4: Validation loss improved to 28121.3672
-Epoch 5/100, Training Loss: 25229.9717
-Epoch 5/100, Training Loss: 25229.9717, Validation Loss: 20621.5176
-Epoch 5: Validation loss improved to 20621.5176
-Epoch 6/100, Training Loss: 19555.9181
-Epoch 6/100, Training Loss: 19555.9181, Validation Loss: 18352.2871
-Epoch 6: Validation loss improved to 18352.2871
-Epoch 7/100, Training Loss: 17660.9141
-Epoch 7/100, Training Loss: 17660.9141, Validation Loss: 16833.0566
-Epoch 7: Validation loss improved to 16833.0566
-Epoch 8/100, Training Loss: 16203.2939
-Epoch 8/100, Training Loss: 16203.2939, Validation Loss: 15811.2324
-Epoch 8: Validation loss improved to 15811.2324
-Epoch 9/100, Training Loss: 14883.6129
-Epoch 9/100, Training Loss: 14883.6129, Validation Loss: 14742.7178
-Epoch 9: Validation loss improved to 14742.7178
-Epoch 10/100, Training Loss: 13487.8927
-Epoch 10/100, Training Loss: 13487.8927, Validation Loss: 14163.5010
-Epoch 10: Validation loss improved to 14163.5010
-Epoch 11/100, Training Loss: 12490.2027
-Epoch 11/100, Training Loss: 12490.2027, Validation Loss: 11884.0303
-Epoch 11: Validation loss improved to 11884.0303
-Epoch 12/100, Training Loss: 11692.2243
-Epoch 12/100, Training Loss: 11692.2243, Validation Loss: 10962.9365
-Epoch 12: Validation loss improved to 10962.9365
-Epoch 13/100, Training Loss: 10638.5656
-Epoch 13/100, Training Loss: 10638.5656, Validation Loss: 9714.7227
-Epoch 13: Validation loss improved to 9714.7227
-Epoch 14/100, Training Loss: 9846.9960
-Epoch 14/100, Training Loss: 9846.9960, Validation Loss: 9627.1992
-Epoch 14: Validation loss improved to 9627.1992
-Epoch 15/100, Training Loss: 9177.9623
-Epoch 15/100, Training Loss: 9177.9623, Validation Loss: 8564.6416
-Epoch 15: Validation loss improved to 8564.6416
-Epoch 16/100, Training Loss: 8372.8625
-Epoch 16/100, Training Loss: 8372.8625, Validation Loss: 8187.2490
-Epoch 16: Validation loss improved to 8187.2490
-Epoch 17/100, Training Loss: 7590.2338
-Epoch 17/100, Training Loss: 7590.2338, Validation Loss: 7241.2148
-Epoch 17: Validation loss improved to 7241.2148
-Epoch 18/100, Training Loss: 7112.2402
-Epoch 18/100, Training Loss: 7112.2402, Validation Loss: 6706.0996
-Epoch 18: Validation loss improved to 6706.0996
-Epoch 19/100, Training Loss: 6345.9020
-Epoch 19/100, Training Loss: 6345.9020, Validation Loss: 6763.6748
-Epoch 19: No improvement. EarlyStopping counter: 1/5
-Epoch 20/100, Training Loss: 5824.8889
-Epoch 20/100, Training Loss: 5824.8889, Validation Loss: 5382.6665
-Epoch 20: Validation loss improved to 5382.6665
-Epoch 21/100, Training Loss: 5351.1737
-Epoch 21/100, Training Loss: 5351.1737, Validation Loss: 5411.1396
-Epoch 21: No improvement. EarlyStopping counter: 1/5
-Epoch 22/100, Training Loss: 4692.6205
-Epoch 22/100, Training Loss: 4692.6205, Validation Loss: 4153.4634
-Epoch 22: Validation loss improved to 4153.4634
-Epoch 23/100, Training Loss: 4057.1570
-Epoch 23/100, Training Loss: 4057.1570, Validation Loss: 3825.4985
-Epoch 23: Validation loss improved to 3825.4985
-Epoch 24/100, Training Loss: 3592.8052
-Epoch 24/100, Training Loss: 3592.8052, Validation Loss: 3770.2576
-Epoch 24: Validation loss improved to 3770.2576
-Epoch 25/100, Training Loss: 3117.2822
-Epoch 25/100, Training Loss: 3117.2822, Validation Loss: 2742.6724
-Epoch 25: Validation loss improved to 2742.6724
-Epoch 26/100, Training Loss: 2665.3953
-Epoch 26/100, Training Loss: 2665.3953, Validation Loss: 2590.3052
-Epoch 26: Validation loss improved to 2590.3052
-Epoch 27/100, Training Loss: 2247.5191
-Epoch 27/100, Training Loss: 2247.5191, Validation Loss: 2062.4517
-Epoch 27: Validation loss improved to 2062.4517
-Epoch 28/100, Training Loss: 1812.3896
-Epoch 28/100, Training Loss: 1812.3896, Validation Loss: 1644.1368
-Epoch 28: Validation loss improved to 1644.1368
-Epoch 29/100, Training Loss: 1257.4291
-Epoch 29/100, Training Loss: 1257.4291, Validation Loss: 994.1552
-Epoch 29: Validation loss improved to 994.1552
-Epoch 30/100, Training Loss: 781.6348
-Epoch 30/100, Training Loss: 781.6348, Validation Loss: 582.6956
-Epoch 30: Validation loss improved to 582.6956
-Epoch 31/100, Training Loss: 416.9280
-Epoch 31/100, Training Loss: 416.9280, Validation Loss: 298.1500
-Epoch 31: Validation loss improved to 298.1500
-Epoch 32/100, Training Loss: 231.6646
-Epoch 32/100, Training Loss: 231.6646, Validation Loss: 161.2544
-Epoch 32: Validation loss improved to 161.2544
-Epoch 33/100, Training Loss: 124.8513
-Epoch 33/100, Training Loss: 124.8513, Validation Loss: 88.2828
-Epoch 33: Validation loss improved to 88.2828
-Epoch 34/100, Training Loss: 68.0203
-Epoch 34/100, Training Loss: 68.0203, Validation Loss: 54.1656
-Epoch 34: Validation loss improved to 54.1656
-Epoch 35/100, Training Loss: 39.2034
-Epoch 35/100, Training Loss: 39.2034, Validation Loss: 34.9264
-Epoch 35: Validation loss improved to 34.9264
-Epoch 36/100, Training Loss: 27.0110
-Epoch 36/100, Training Loss: 27.0110, Validation Loss: 26.5383
-Epoch 36: Validation loss improved to 26.5383
-Epoch 37/100, Training Loss: 22.2981
-Epoch 37/100, Training Loss: 22.2981, Validation Loss: 23.5028
-Epoch 37: Validation loss improved to 23.5028
-Epoch 38/100, Training Loss: 20.5801
-Epoch 38/100, Training Loss: 20.5801, Validation Loss: 22.7401
-Epoch 38: Validation loss improved to 22.7401
-Epoch 39/100, Training Loss: 20.3957
-Epoch 39/100, Training Loss: 20.3957, Validation Loss: 22.7778
-Epoch 39: No improvement. EarlyStopping counter: 1/5
-Epoch 40/100, Training Loss: 20.3737
-Epoch 40/100, Training Loss: 20.3737, Validation Loss: 22.7083
-Epoch 40: Validation loss improved to 22.7083
-Epoch 41/100, Training Loss: 20.3669
-Epoch 41/100, Training Loss: 20.3669, Validation Loss: 23.0263
-Epoch 41: No improvement. EarlyStopping counter: 1/5
-Epoch 42/100, Training Loss: 20.3966
-Epoch 42/100, Training Loss: 20.3966, Validation Loss: 22.8781
-Epoch 42: No improvement. EarlyStopping counter: 2/5
-Epoch 43/100, Training Loss: 20.4087
-Epoch 43/100, Training Loss: 20.4087, Validation Loss: 22.6627
-Epoch 43: Validation loss improved to 22.6627
-Epoch 44/100, Training Loss: 20.4260
-Epoch 44/100, Training Loss: 20.4260, Validation Loss: 22.9112
-Epoch 44: No improvement. EarlyStopping counter: 1/5
-Epoch 45/100, Training Loss: 20.4386
-Epoch 45/100, Training Loss: 20.4386, Validation Loss: 22.8797
-Epoch 45: No improvement. EarlyStopping counter: 2/5
-Epoch 46/100, Training Loss: 20.4376
-Epoch 46/100, Training Loss: 20.4376, Validation Loss: 23.6532
-Epoch 46: No improvement. EarlyStopping counter: 3/5
-Epoch 47/100, Training Loss: 20.3746
-Epoch 47/100, Training Loss: 20.3746, Validation Loss: 23.2035
-Epoch 47: No improvement. EarlyStopping counter: 4/5
-Epoch 48/100, Training Loss: 20.4475
-Epoch 48/100, Training Loss: 20.4475, Validation Loss: 22.8246
-Epoch 48: No improvement. EarlyStopping counter: 5/5
-Early stopping triggered at epoch 48
+Epoch 1/200, Training Loss: 144546.8914
+Epoch 1/200, Training Loss: 144546.8914, Validation Loss: 88843.9922
+Epoch 1: EarlyStopping initialized with best_loss=88843.9922
+Epoch 2/200, Training Loss: 61632.8479
+Epoch 2/200, Training Loss: 61632.8479, Validation Loss: 41520.4180
+Epoch 2: Validation loss improved to 41520.4180
+Epoch 3/200, Training Loss: 31112.1586
+Epoch 3/200, Training Loss: 31112.1586, Validation Loss: 26382.3945
+Epoch 3: Validation loss improved to 26382.3945
+Epoch 4/200, Training Loss: 19825.8428
+Epoch 4/200, Training Loss: 19825.8428, Validation Loss: 17028.4980
+Epoch 4: Validation loss improved to 17028.4980
+Epoch 5/200, Training Loss: 14966.6946
+Epoch 5/200, Training Loss: 14966.6946, Validation Loss: 12710.6152
+Epoch 5: Validation loss improved to 12710.6152
+Epoch 6/200, Training Loss: 12141.7497
+Epoch 6/200, Training Loss: 12141.7497, Validation Loss: 10624.6104
+Epoch 6: Validation loss improved to 10624.6104
+Epoch 7/200, Training Loss: 10388.1384
+Epoch 7/200, Training Loss: 10388.1384, Validation Loss: 10185.7578
+Epoch 7: Validation loss improved to 10185.7578
+Epoch 8/200, Training Loss: 8540.3537
+Epoch 8/200, Training Loss: 8540.3537, Validation Loss: 7711.9185
+Epoch 8: Validation loss improved to 7711.9185
+Epoch 9/200, Training Loss: 7659.7873
+Epoch 9/200, Training Loss: 7659.7873, Validation Loss: 6868.3296
+Epoch 9: Validation loss improved to 6868.3296
+Epoch 10/200, Training Loss: 7086.3717
+Epoch 10/200, Training Loss: 7086.3717, Validation Loss: 5810.5205
+Epoch 10: Validation loss improved to 5810.5205
+Epoch 11/200, Training Loss: 5673.8363
+Epoch 11/200, Training Loss: 5673.8363, Validation Loss: 5073.7578
+Epoch 11: Validation loss improved to 5073.7578
+Epoch 12/200, Training Loss: 4871.7782
+Epoch 12/200, Training Loss: 4871.7782, Validation Loss: 4421.0098
+Epoch 12: Validation loss improved to 4421.0098
+Epoch 13/200, Training Loss: 4021.1465
+Epoch 13/200, Training Loss: 4021.1465, Validation Loss: 3741.0249
+Epoch 13: Validation loss improved to 3741.0249
+Epoch 14/200, Training Loss: 3289.4781
+Epoch 14/200, Training Loss: 3289.4781, Validation Loss: 3018.9302
+Epoch 14: Validation loss improved to 3018.9302
+Epoch 15/200, Training Loss: 2443.6738
+Epoch 15/200, Training Loss: 2443.6738, Validation Loss: 2168.3721
+Epoch 15: Validation loss improved to 2168.3721
+Epoch 16/200, Training Loss: 1893.9700
+Epoch 16/200, Training Loss: 1893.9700, Validation Loss: 1700.1324
+Epoch 16: Validation loss improved to 1700.1324
+Epoch 17/200, Training Loss: 1444.2592
+Epoch 17/200, Training Loss: 1444.2592, Validation Loss: 1235.7067
+Epoch 17: Validation loss improved to 1235.7067
+Epoch 18/200, Training Loss: 979.4125
+Epoch 18/200, Training Loss: 979.4125, Validation Loss: 893.0792
+Epoch 18: Validation loss improved to 893.0792
+Epoch 19/200, Training Loss: 722.4376
+Epoch 19/200, Training Loss: 722.4376, Validation Loss: 603.7746
+Epoch 19: Validation loss improved to 603.7746
+Epoch 20/200, Training Loss: 401.2247
+Epoch 20/200, Training Loss: 401.2247, Validation Loss: 132.0276
+Epoch 20: Validation loss improved to 132.0276
+Epoch 21/200, Training Loss: 31.3119
+Epoch 21/200, Training Loss: 31.3119, Validation Loss: 22.9555
+Epoch 21: Validation loss improved to 22.9555
+Epoch 22/200, Training Loss: 20.4820
+Epoch 22/200, Training Loss: 20.4820, Validation Loss: 22.9616
+Epoch 22: No improvement. EarlyStopping counter: 1/5
+Epoch 23/200, Training Loss: 32.5513
+Epoch 23/200, Training Loss: 32.5513, Validation Loss: 22.9175
+Epoch 23: Validation loss improved to 22.9175
+Epoch 24/200, Training Loss: 20.4842
+Epoch 24/200, Training Loss: 20.4842, Validation Loss: 22.7891
+Epoch 24: Validation loss improved to 22.7891
+Epoch 25/200, Training Loss: 20.4602
+Epoch 25/200, Training Loss: 20.4602, Validation Loss: 22.6657
+Epoch 25: Validation loss improved to 22.6657
+Epoch 26/200, Training Loss: 20.5181
+Epoch 26/200, Training Loss: 20.5181, Validation Loss: 22.7122
+Epoch 26: No improvement. EarlyStopping counter: 1/5
+Epoch 27/200, Training Loss: 20.5599
+Epoch 27/200, Training Loss: 20.5599, Validation Loss: 22.8580
+Epoch 27: No improvement. EarlyStopping counter: 2/5
+Epoch 28/200, Training Loss: 20.5310
+Epoch 28/200, Training Loss: 20.5310, Validation Loss: 23.0027
+Epoch 28: No improvement. EarlyStopping counter: 3/5
+Epoch 29/200, Training Loss: 20.5394
+Epoch 29/200, Training Loss: 20.5394, Validation Loss: 22.9790
+Epoch 29: No improvement. EarlyStopping counter: 4/5
+Epoch 30/200, Training Loss: 20.5769
+Epoch 30/200, Training Loss: 20.5769, Validation Loss: 22.9241
+Epoch 30: No improvement. EarlyStopping counter: 5/5
+Early stopping triggered at epoch 30
 Fold 3 completed.
 Training fold 4...
-Epoch 1/100, Training Loss: 170992.2057
-Epoch 1/100, Training Loss: 170992.2057, Validation Loss: 136943.3750
-Epoch 1: EarlyStopping initialized with best_loss=136943.3750
-Epoch 2/100, Training Loss: 109106.8140
-Epoch 2/100, Training Loss: 109106.8140, Validation Loss: 81779.1797
-Epoch 2: Validation loss improved to 81779.1797
-Epoch 3/100, Training Loss: 66202.0732
-Epoch 3/100, Training Loss: 66202.0732, Validation Loss: 50593.9453
-Epoch 3: Validation loss improved to 50593.9453
-Epoch 4/100, Training Loss: 43164.7405
-Epoch 4/100, Training Loss: 43164.7405, Validation Loss: 36362.7930
-Epoch 4: Validation loss improved to 36362.7930
-Epoch 5/100, Training Loss: 32742.1720
-Epoch 5/100, Training Loss: 32742.1720, Validation Loss: 27763.9277
-Epoch 5: Validation loss improved to 27763.9277
-Epoch 6/100, Training Loss: 26382.6671
-Epoch 6/100, Training Loss: 26382.6671, Validation Loss: 24225.0859
-Epoch 6: Validation loss improved to 24225.0859
-Epoch 7/100, Training Loss: 22540.6472
-Epoch 7/100, Training Loss: 22540.6472, Validation Loss: 19976.7168
-Epoch 7: Validation loss improved to 19976.7168
-Epoch 8/100, Training Loss: 20005.1226
-Epoch 8/100, Training Loss: 20005.1226, Validation Loss: 18681.1934
-Epoch 8: Validation loss improved to 18681.1934
-Epoch 9/100, Training Loss: 17395.7583
-Epoch 9/100, Training Loss: 17395.7583, Validation Loss: 17710.6270
-Epoch 9: Validation loss improved to 17710.6270
-Epoch 10/100, Training Loss: 16008.1299
-Epoch 10/100, Training Loss: 16008.1299, Validation Loss: 14531.3496
-Epoch 10: Validation loss improved to 14531.3496
-Epoch 11/100, Training Loss: 14326.6714
-Epoch 11/100, Training Loss: 14326.6714, Validation Loss: 13710.5859
-Epoch 11: Validation loss improved to 13710.5859
-Epoch 12/100, Training Loss: 12996.3782
-Epoch 12/100, Training Loss: 12996.3782, Validation Loss: 12178.8584
-Epoch 12: Validation loss improved to 12178.8584
-Epoch 13/100, Training Loss: 12150.6359
-Epoch 13/100, Training Loss: 12150.6359, Validation Loss: 10752.6650
-Epoch 13: Validation loss improved to 10752.6650
-Epoch 14/100, Training Loss: 10408.9259
-Epoch 14/100, Training Loss: 10408.9259, Validation Loss: 9699.8096
-Epoch 14: Validation loss improved to 9699.8096
-Epoch 15/100, Training Loss: 9264.7389
-Epoch 15/100, Training Loss: 9264.7389, Validation Loss: 9300.4277
-Epoch 15: Validation loss improved to 9300.4277
-Epoch 16/100, Training Loss: 8781.7007
-Epoch 16/100, Training Loss: 8781.7007, Validation Loss: 11384.6895
-Epoch 16: No improvement. EarlyStopping counter: 1/5
-Epoch 17/100, Training Loss: 7389.7422
-Epoch 17/100, Training Loss: 7389.7422, Validation Loss: 8066.0020
-Epoch 17: Validation loss improved to 8066.0020
-Epoch 18/100, Training Loss: 6742.3477
-Epoch 18/100, Training Loss: 6742.3477, Validation Loss: 5992.1157
-Epoch 18: Validation loss improved to 5992.1157
-Epoch 19/100, Training Loss: 6003.2798
-Epoch 19/100, Training Loss: 6003.2798, Validation Loss: 5355.5488
-Epoch 19: Validation loss improved to 5355.5488
-Epoch 20/100, Training Loss: 4915.5624
-Epoch 20/100, Training Loss: 4915.5624, Validation Loss: 4635.8599
-Epoch 20: Validation loss improved to 4635.8599
-Epoch 21/100, Training Loss: 4545.4476
-Epoch 21/100, Training Loss: 4545.4476, Validation Loss: 4045.0813
-Epoch 21: Validation loss improved to 4045.0813
-Epoch 22/100, Training Loss: 3719.2597
-Epoch 22/100, Training Loss: 3719.2597, Validation Loss: 3500.7324
-Epoch 22: Validation loss improved to 3500.7324
-Epoch 23/100, Training Loss: 3201.6870
-Epoch 23/100, Training Loss: 3201.6870, Validation Loss: 2910.8132
-Epoch 23: Validation loss improved to 2910.8132
-Epoch 24/100, Training Loss: 2882.8503
-Epoch 24/100, Training Loss: 2882.8503, Validation Loss: 2849.2153
-Epoch 24: Validation loss improved to 2849.2153
-Epoch 25/100, Training Loss: 2189.1266
-Epoch 25/100, Training Loss: 2189.1266, Validation Loss: 1931.3951
-Epoch 25: Validation loss improved to 1931.3951
-Epoch 26/100, Training Loss: 1630.7623
-Epoch 26/100, Training Loss: 1630.7623, Validation Loss: 1653.9819
-Epoch 26: Validation loss improved to 1653.9819
-Epoch 27/100, Training Loss: 1657.7576
-Epoch 27/100, Training Loss: 1657.7576, Validation Loss: 871.5619
-Epoch 27: Validation loss improved to 871.5619
-Epoch 28/100, Training Loss: 386.9741
-Epoch 28/100, Training Loss: 386.9741, Validation Loss: 158.3167
-Epoch 28: Validation loss improved to 158.3167
-Epoch 29/100, Training Loss: 52.6116
-Epoch 29/100, Training Loss: 52.6116, Validation Loss: 24.8013
-Epoch 29: Validation loss improved to 24.8013
-Epoch 30/100, Training Loss: 24.2130
-Epoch 30/100, Training Loss: 24.2130, Validation Loss: 21.5344
-Epoch 30: Validation loss improved to 21.5344
-Epoch 31/100, Training Loss: 22.2872
-Epoch 31/100, Training Loss: 22.2872, Validation Loss: 20.4998
-Epoch 31: Validation loss improved to 20.4998
-Epoch 32/100, Training Loss: 21.5225
-Epoch 32/100, Training Loss: 21.5225, Validation Loss: 19.9312
-Epoch 32: Validation loss improved to 19.9312
-Epoch 33/100, Training Loss: 21.2329
-Epoch 33/100, Training Loss: 21.2329, Validation Loss: 19.7977
-Epoch 33: Validation loss improved to 19.7977
-Epoch 34/100, Training Loss: 21.1550
-Epoch 34/100, Training Loss: 21.1550, Validation Loss: 19.7873
-Epoch 34: Validation loss improved to 19.7873
-Epoch 35/100, Training Loss: 21.1023
-Epoch 35/100, Training Loss: 21.1023, Validation Loss: 19.7083
-Epoch 35: Validation loss improved to 19.7083
-Epoch 36/100, Training Loss: 21.0943
-Epoch 36/100, Training Loss: 21.0943, Validation Loss: 19.7896
-Epoch 36: No improvement. EarlyStopping counter: 1/5
-Epoch 37/100, Training Loss: 21.0939
-Epoch 37/100, Training Loss: 21.0939, Validation Loss: 19.6313
-Epoch 37: Validation loss improved to 19.6313
-Epoch 38/100, Training Loss: 21.1475
-Epoch 38/100, Training Loss: 21.1475, Validation Loss: 19.8045
-Epoch 38: No improvement. EarlyStopping counter: 1/5
-Epoch 39/100, Training Loss: 21.1335
-Epoch 39/100, Training Loss: 21.1335, Validation Loss: 19.6572
-Epoch 39: No improvement. EarlyStopping counter: 2/5
-Epoch 40/100, Training Loss: 21.1732
-Epoch 40/100, Training Loss: 21.1732, Validation Loss: 19.8396
-Epoch 40: No improvement. EarlyStopping counter: 3/5
-Epoch 41/100, Training Loss: 21.1110
-Epoch 41/100, Training Loss: 21.1110, Validation Loss: 19.6210
-Epoch 41: Validation loss improved to 19.6210
-Epoch 42/100, Training Loss: 21.1666
-Epoch 42/100, Training Loss: 21.1666, Validation Loss: 19.6391
-Epoch 42: No improvement. EarlyStopping counter: 1/5
-Epoch 43/100, Training Loss: 21.1820
-Epoch 43/100, Training Loss: 21.1820, Validation Loss: 19.8983
-Epoch 43: No improvement. EarlyStopping counter: 2/5
-Epoch 44/100, Training Loss: 21.1710
-Epoch 44/100, Training Loss: 21.1710, Validation Loss: 19.6791
-Epoch 44: No improvement. EarlyStopping counter: 3/5
-Epoch 45/100, Training Loss: 21.1425
-Epoch 45/100, Training Loss: 21.1425, Validation Loss: 19.7857
-Epoch 45: No improvement. EarlyStopping counter: 4/5
-Epoch 46/100, Training Loss: 21.1745
-Epoch 46/100, Training Loss: 21.1745, Validation Loss: 19.6701
-Epoch 46: No improvement. EarlyStopping counter: 5/5
-Early stopping triggered at epoch 46
+Epoch 1/200, Training Loss: 143582.3084
+Epoch 1/200, Training Loss: 143582.3084, Validation Loss: 95596.1797
+Epoch 1: EarlyStopping initialized with best_loss=95596.1797
+Epoch 2/200, Training Loss: 67965.6921
+Epoch 2/200, Training Loss: 67965.6921, Validation Loss: 49672.1250
+Epoch 2: Validation loss improved to 49672.1250
+Epoch 3/200, Training Loss: 35760.1564
+Epoch 3/200, Training Loss: 35760.1564, Validation Loss: 26356.2441
+Epoch 3: Validation loss improved to 26356.2441
+Epoch 4/200, Training Loss: 22127.4867
+Epoch 4/200, Training Loss: 22127.4867, Validation Loss: 17012.8262
+Epoch 4: Validation loss improved to 17012.8262
+Epoch 5/200, Training Loss: 15729.3070
+Epoch 5/200, Training Loss: 15729.3070, Validation Loss: 13106.2734
+Epoch 5: Validation loss improved to 13106.2734
+Epoch 6/200, Training Loss: 11488.7666
+Epoch 6/200, Training Loss: 11488.7666, Validation Loss: 10238.3027
+Epoch 6: Validation loss improved to 10238.3027
+Epoch 7/200, Training Loss: 10618.1215
+Epoch 7/200, Training Loss: 10618.1215, Validation Loss: 9449.3438
+Epoch 7: Validation loss improved to 9449.3438
+Epoch 8/200, Training Loss: 8858.0249
+Epoch 8/200, Training Loss: 8858.0249, Validation Loss: 8675.1475
+Epoch 8: Validation loss improved to 8675.1475
+Epoch 9/200, Training Loss: 7810.8905
+Epoch 9/200, Training Loss: 7810.8905, Validation Loss: 7532.1870
+Epoch 9: Validation loss improved to 7532.1870
+Epoch 10/200, Training Loss: 6985.4600
+Epoch 10/200, Training Loss: 6985.4600, Validation Loss: 6510.9790
+Epoch 10: Validation loss improved to 6510.9790
+Epoch 11/200, Training Loss: 6047.8231
+Epoch 11/200, Training Loss: 6047.8231, Validation Loss: 5505.1357
+Epoch 11: Validation loss improved to 5505.1357
+Epoch 12/200, Training Loss: 4911.2248
+Epoch 12/200, Training Loss: 4911.2248, Validation Loss: 4448.6611
+Epoch 12: Validation loss improved to 4448.6611
+Epoch 13/200, Training Loss: 3891.7992
+Epoch 13/200, Training Loss: 3891.7992, Validation Loss: 3825.3816
+Epoch 13: Validation loss improved to 3825.3816
+Epoch 14/200, Training Loss: 3132.1828
+Epoch 14/200, Training Loss: 3132.1828, Validation Loss: 2525.1025
+Epoch 14: Validation loss improved to 2525.1025
+Epoch 15/200, Training Loss: 2145.4210
+Epoch 15/200, Training Loss: 2145.4210, Validation Loss: 1785.8086
+Epoch 15: Validation loss improved to 1785.8086
+Epoch 16/200, Training Loss: 1426.2499
+Epoch 16/200, Training Loss: 1426.2499, Validation Loss: 1218.4198
+Epoch 16: Validation loss improved to 1218.4198
+Epoch 17/200, Training Loss: 884.7748
+Epoch 17/200, Training Loss: 884.7748, Validation Loss: 209.4106
+Epoch 17: Validation loss improved to 209.4106
+Epoch 18/200, Training Loss: 42.5767
+Epoch 18/200, Training Loss: 42.5767, Validation Loss: 21.3171
+Epoch 18: Validation loss improved to 21.3171
+Epoch 19/200, Training Loss: 21.7170
+Epoch 19/200, Training Loss: 21.7170, Validation Loss: 20.0038
+Epoch 19: Validation loss improved to 20.0038
+Epoch 20/200, Training Loss: 21.1538
+Epoch 20/200, Training Loss: 21.1538, Validation Loss: 19.7777
+Epoch 20: Validation loss improved to 19.7777
+Epoch 21/200, Training Loss: 21.2149
+Epoch 21/200, Training Loss: 21.2149, Validation Loss: 19.6222
+Epoch 21: Validation loss improved to 19.6222
+Epoch 22/200, Training Loss: 21.2505
+Epoch 22/200, Training Loss: 21.2505, Validation Loss: 19.7500
+Epoch 22: No improvement. EarlyStopping counter: 1/5
+Epoch 23/200, Training Loss: 21.2197
+Epoch 23/200, Training Loss: 21.2197, Validation Loss: 19.9359
+Epoch 23: No improvement. EarlyStopping counter: 2/5
+Epoch 24/200, Training Loss: 21.2967
+Epoch 24/200, Training Loss: 21.2967, Validation Loss: 19.7844
+Epoch 24: No improvement. EarlyStopping counter: 3/5
+Epoch 25/200, Training Loss: 21.2126
+Epoch 25/200, Training Loss: 21.2126, Validation Loss: 20.3770
+Epoch 25: No improvement. EarlyStopping counter: 4/5
+Epoch 26/200, Training Loss: 21.3575
+Epoch 26/200, Training Loss: 21.3575, Validation Loss: 20.1301
+Epoch 26: No improvement. EarlyStopping counter: 5/5
+Early stopping triggered at epoch 26
 Fold 4 completed.
 Training fold 5...
-Epoch 1/100, Training Loss: 170779.9821
-Epoch 1/100, Training Loss: 170779.9821, Validation Loss: 137657.1406
-Epoch 1: EarlyStopping initialized with best_loss=137657.1406
-Epoch 2/100, Training Loss: 113824.8901
-Epoch 2/100, Training Loss: 113824.8901, Validation Loss: 88485.2656
-Epoch 2: Validation loss improved to 88485.2656
-Epoch 3/100, Training Loss: 73548.5192
-Epoch 3/100, Training Loss: 73548.5192, Validation Loss: 58051.6523
-Epoch 3: Validation loss improved to 58051.6523
-Epoch 4/100, Training Loss: 49463.7490
-Epoch 4/100, Training Loss: 49463.7490, Validation Loss: 43022.1797
-Epoch 4: Validation loss improved to 43022.1797
-Epoch 5/100, Training Loss: 35559.2613
-Epoch 5/100, Training Loss: 35559.2613, Validation Loss: 30425.8535
-Epoch 5: Validation loss improved to 30425.8535
-Epoch 6/100, Training Loss: 26577.8100
-Epoch 6/100, Training Loss: 26577.8100, Validation Loss: 24055.9570
-Epoch 6: Validation loss improved to 24055.9570
-Epoch 7/100, Training Loss: 20648.8905
-Epoch 7/100, Training Loss: 20648.8905, Validation Loss: 18168.9980
-Epoch 7: Validation loss improved to 18168.9980
-Epoch 8/100, Training Loss: 17630.4535
-Epoch 8/100, Training Loss: 17630.4535, Validation Loss: 16600.9785
-Epoch 8: Validation loss improved to 16600.9785
-Epoch 9/100, Training Loss: 15609.2428
-Epoch 9/100, Training Loss: 15609.2428, Validation Loss: 14459.3643
-Epoch 9: Validation loss improved to 14459.3643
-Epoch 10/100, Training Loss: 15569.2070
-Epoch 10/100, Training Loss: 15569.2070, Validation Loss: 14195.0625
-Epoch 10: Validation loss improved to 14195.0625
-Epoch 11/100, Training Loss: 14295.0030
-Epoch 11/100, Training Loss: 14295.0030, Validation Loss: 13611.2598
-Epoch 11: Validation loss improved to 13611.2598
-Epoch 12/100, Training Loss: 12751.2414
-Epoch 12/100, Training Loss: 12751.2414, Validation Loss: 11377.4385
-Epoch 12: Validation loss improved to 11377.4385
-Epoch 13/100, Training Loss: 11306.5367
-Epoch 13/100, Training Loss: 11306.5367, Validation Loss: 10133.2588
-Epoch 13: Validation loss improved to 10133.2588
-Epoch 14/100, Training Loss: 12071.6806
-Epoch 14/100, Training Loss: 12071.6806, Validation Loss: 11141.4619
-Epoch 14: No improvement. EarlyStopping counter: 1/5
-Epoch 15/100, Training Loss: 10507.1874
-Epoch 15/100, Training Loss: 10507.1874, Validation Loss: 8492.0098
-Epoch 15: Validation loss improved to 8492.0098
-Epoch 16/100, Training Loss: 8381.0711
-Epoch 16/100, Training Loss: 8381.0711, Validation Loss: 7198.0000
-Epoch 16: Validation loss improved to 7198.0000
-Epoch 17/100, Training Loss: 7292.5334
-Epoch 17/100, Training Loss: 7292.5334, Validation Loss: 6249.2983
-Epoch 17: Validation loss improved to 6249.2983
-Epoch 18/100, Training Loss: 6287.8699
-Epoch 18/100, Training Loss: 6287.8699, Validation Loss: 5359.9395
-Epoch 18: Validation loss improved to 5359.9395
-Epoch 19/100, Training Loss: 5624.9614
-Epoch 19/100, Training Loss: 5624.9614, Validation Loss: 5112.9810
-Epoch 19: Validation loss improved to 5112.9810
-Epoch 20/100, Training Loss: 4745.1138
-Epoch 20/100, Training Loss: 4745.1138, Validation Loss: 3980.9043
-Epoch 20: Validation loss improved to 3980.9043
-Epoch 21/100, Training Loss: 4159.3595
-Epoch 21/100, Training Loss: 4159.3595, Validation Loss: 3730.3967
-Epoch 21: Validation loss improved to 3730.3967
-Epoch 22/100, Training Loss: 3465.7252
-Epoch 22/100, Training Loss: 3465.7252, Validation Loss: 2963.1841
-Epoch 22: Validation loss improved to 2963.1841
-Epoch 23/100, Training Loss: 2958.8414
-Epoch 23/100, Training Loss: 2958.8414, Validation Loss: 2464.6707
-Epoch 23: Validation loss improved to 2464.6707
-Epoch 24/100, Training Loss: 2270.2465
-Epoch 24/100, Training Loss: 2270.2465, Validation Loss: 1850.5166
-Epoch 24: Validation loss improved to 1850.5166
-Epoch 25/100, Training Loss: 1779.6718
-Epoch 25/100, Training Loss: 1779.6718, Validation Loss: 1388.5094
-Epoch 25: Validation loss improved to 1388.5094
-Epoch 26/100, Training Loss: 1383.5268
-Epoch 26/100, Training Loss: 1383.5268, Validation Loss: 1129.1146
-Epoch 26: Validation loss improved to 1129.1146
-Epoch 27/100, Training Loss: 939.1951
-Epoch 27/100, Training Loss: 939.1951, Validation Loss: 689.4540
-Epoch 27: Validation loss improved to 689.4540
-Epoch 28/100, Training Loss: nan
-Epoch 28/100, Training Loss: nan, Validation Loss: nan
-Epoch 28: No improvement. EarlyStopping counter: 1/5
-Epoch 29/100, Training Loss: nan
-Epoch 29/100, Training Loss: nan, Validation Loss: nan
-Epoch 29: No improvement. EarlyStopping counter: 2/5
-Epoch 30/100, Training Loss: nan
-Epoch 30/100, Training Loss: nan, Validation Loss: nan
-Epoch 30: No improvement. EarlyStopping counter: 3/5
-Epoch 31/100, Training Loss: nan
-Epoch 31/100, Training Loss: nan, Validation Loss: nan
-Epoch 31: No improvement. EarlyStopping counter: 4/5
-Epoch 32/100, Training Loss: nan
-Epoch 32/100, Training Loss: nan, Validation Loss: nan
-Epoch 32: No improvement. EarlyStopping counter: 5/5
-Early stopping triggered at epoch 32
+Epoch 1/200, Training Loss: 143994.9547
+Epoch 1/200, Training Loss: 143994.9547, Validation Loss: 89454.3125
+Epoch 1: EarlyStopping initialized with best_loss=89454.3125
+Epoch 2/200, Training Loss: 62879.5186
+Epoch 2/200, Training Loss: 62879.5186, Validation Loss: 45448.9531
+Epoch 2: Validation loss improved to 45448.9531
+Epoch 3/200, Training Loss: 31365.4916
+Epoch 3/200, Training Loss: 31365.4916, Validation Loss: 23717.5938
+Epoch 3: Validation loss improved to 23717.5938
+Epoch 4/200, Training Loss: 19460.1830
+Epoch 4/200, Training Loss: 19460.1830, Validation Loss: 16352.2793
+Epoch 4: Validation loss improved to 16352.2793
+Epoch 5/200, Training Loss: 13928.9534
+Epoch 5/200, Training Loss: 13928.9534, Validation Loss: 11709.6475
+Epoch 5: Validation loss improved to 11709.6475
+Epoch 6/200, Training Loss: 11382.3403
+Epoch 6/200, Training Loss: 11382.3403, Validation Loss: 10629.9463
+Epoch 6: Validation loss improved to 10629.9463
+Epoch 7/200, Training Loss: 10310.7606
+Epoch 7/200, Training Loss: 10310.7606, Validation Loss: 9066.8564
+Epoch 7: Validation loss improved to 9066.8564
+Epoch 8/200, Training Loss: 9620.8685
+Epoch 8/200, Training Loss: 9620.8685, Validation Loss: 7922.6689
+Epoch 8: Validation loss improved to 7922.6689
+Epoch 9/200, Training Loss: 7856.1243
+Epoch 9/200, Training Loss: 7856.1243, Validation Loss: 8458.6982
+Epoch 9: No improvement. EarlyStopping counter: 1/5
+Epoch 10/200, Training Loss: 6708.8650
+Epoch 10/200, Training Loss: 6708.8650, Validation Loss: 5658.9399
+Epoch 10: Validation loss improved to 5658.9399
+Epoch 11/200, Training Loss: 6827.8626
+Epoch 11/200, Training Loss: 6827.8626, Validation Loss: 4872.7988
+Epoch 11: Validation loss improved to 4872.7988
+Epoch 12/200, Training Loss: 4857.9221
+Epoch 12/200, Training Loss: 4857.9221, Validation Loss: 4434.4912
+Epoch 12: Validation loss improved to 4434.4912
+Epoch 13/200, Training Loss: 3864.9314
+Epoch 13/200, Training Loss: 3864.9314, Validation Loss: 3276.3850
+Epoch 13: Validation loss improved to 3276.3850
+Epoch 14/200, Training Loss: 3145.4346
+Epoch 14/200, Training Loss: 3145.4346, Validation Loss: 2548.2910
+Epoch 14: Validation loss improved to 2548.2910
+Epoch 15/200, Training Loss: 2297.2182
+Epoch 15/200, Training Loss: 2297.2182, Validation Loss: 1762.7180
+Epoch 15: Validation loss improved to 1762.7180
+Epoch 16/200, Training Loss: 1576.1426
+Epoch 16/200, Training Loss: 1576.1426, Validation Loss: 1207.4840
+Epoch 16: Validation loss improved to 1207.4840
+Epoch 17/200, Training Loss: 1144.0846
+Epoch 17/200, Training Loss: 1144.0846, Validation Loss: 898.2933
+Epoch 17: Validation loss improved to 898.2933
+Epoch 18/200, Training Loss: 716.4119
+Epoch 18/200, Training Loss: 716.4119, Validation Loss: 484.4124
+Epoch 18: Validation loss improved to 484.4124
+Epoch 19/200, Training Loss: 265.9596
+Epoch 19/200, Training Loss: 265.9596, Validation Loss: 36.3732
+Epoch 19: Validation loss improved to 36.3732
+Epoch 20/200, Training Loss: 32.0119
+Epoch 20/200, Training Loss: 32.0119, Validation Loss: 21.0155
+Epoch 20: Validation loss improved to 21.0155
+Epoch 21/200, Training Loss: 20.9333
+Epoch 21/200, Training Loss: 20.9333, Validation Loss: 20.9390
+Epoch 21: Validation loss improved to 20.9390
+Epoch 22/200, Training Loss: 20.8728
+Epoch 22/200, Training Loss: 20.8728, Validation Loss: 21.2219
+Epoch 22: No improvement. EarlyStopping counter: 1/5
+Epoch 23/200, Training Loss: 20.9571
+Epoch 23/200, Training Loss: 20.9571, Validation Loss: 20.9648
+Epoch 23: No improvement. EarlyStopping counter: 2/5
+Epoch 24/200, Training Loss: 20.9739
+Epoch 24/200, Training Loss: 20.9739, Validation Loss: 20.9764
+Epoch 24: No improvement. EarlyStopping counter: 3/5
+Epoch 25/200, Training Loss: 21.0266
+Epoch 25/200, Training Loss: 21.0266, Validation Loss: 21.0949
+Epoch 25: No improvement. EarlyStopping counter: 4/5
+Epoch 26/200, Training Loss: 20.9834
+Epoch 26/200, Training Loss: 20.9834, Validation Loss: 21.2489
+Epoch 26: No improvement. EarlyStopping counter: 5/5
+Early stopping triggered at epoch 26
 Fold 5 completed.
-[run1: 46790.7812 run2: 20.8998 run3: 22.6627 run4: 19.6210 run5: 689.4540] avg loss: 9508.6837 best loss: 19.6210 worst loss: 46790.7812
+[run1: 19.6619 run2: 21.0774 run3: 22.6657 run4: 19.6222 run5: 20.9390] avg loss: 20.7932 best loss: 19.6222 worst loss: 22.6657
